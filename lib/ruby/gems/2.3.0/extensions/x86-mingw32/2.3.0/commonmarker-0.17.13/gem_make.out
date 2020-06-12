@@ -1,0 +1,190 @@
+current directory: C:/Users/vhd/Desktop/meav.github.io-master/ruby/lib/ruby/gems/2.3.0/gems/commonmarker-0.17.13/ext/commonmarker
+C:/Users/vhd/Desktop/meav.github.io-master/ruby/bin/ruby.exe -r ./siteconf20200609-1756-1ydqdb5.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/vhd/Desktop/meav.github.io-master/ruby/lib/ruby/gems/2.3.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: C:/Users/vhd/Desktop/meav.github.io-master/ruby/lib/ruby/gems/2.3.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR="
+generating commonmarker-i386-mingw32.def
+compiling arena.c
+arena.c: In function 'cmark_arena_pop':
+arena.c:38:5: warning: ISO C90 forbids mixed declarations and code
+arena.c: In function 'cmark_arena_reset':
+arena.c:54:5: warning: ISO C90 forbids mixed declarations and code
+arena.c: In function 'arena_calloc':
+arena.c:64:3: warning: ISO C90 forbids mixed declarations and code
+arena.c:78:3: warning: ISO C90 forbids mixed declarations and code
+arena.c: In function 'arena_realloc':
+arena.c:88:3: warning: ISO C90 forbids mixed declarations and code
+compiling autolink.c
+autolink.c: In function 'sd_autolink_issafe':
+autolink.c:29:5: warning: implicit declaration of function '_strnicmp'
+autolink.c: In function 'www_match':
+autolink.c:178:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c:186:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c: In function 'url_match':
+autolink.c:239:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c:245:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c: In function 'postprocess_text':
+autolink.c:343:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c:350:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c:361:3: warning: ISO C90 forbids mixed declarations and code
+autolink.c: In function 'create_autolink_extension':
+autolink.c:415:3: warning: ISO C90 forbids mixed declarations and code
+compiling blocks.c
+blocks.c: In function 'cmark_parser_reset':
+blocks.c:118:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c: In function 'finalize':
+blocks.c:281:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c:313:7: warning: ISO C90 forbids mixed declarations and code
+blocks.c: In function 'add_child':
+blocks.c:378:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c: In function 'process_footnotes':
+blocks.c:461:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c:471:9: warning: ISO C90 forbids mixed declarations and code
+blocks.c:474:9: warning: ISO C90 forbids mixed declarations and code
+blocks.c:483:9: warning: ISO C90 forbids mixed declarations and code
+blocks.c: In function 'check_open_blocks':
+blocks.c:972:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c: In function 'add_text_to_container':
+blocks.c:1257:3: warning: ISO C90 forbids mixed declarations and code
+blocks.c:1295:7: warning: ISO C90 forbids mixed declarations and code
+compiling buffer.c
+buffer.c: In function 'cmark_strbuf_grow':
+buffer.c:54:3: warning: ISO C90 forbids mixed declarations and code
+buffer.c: In function 'cmark_strbuf_strchr':
+buffer.c:173:3: warning: ISO C90 forbids mixed declarations and code
+buffer.c: In function 'cmark_strbuf_strrchr':
+buffer.c:187:3: warning: ISO C90 forbids mixed declarations and code
+compiling cmark.c
+compiling cmark_ctype.c
+compiling commonmark.c
+commonmark.c: In function 'S_render_node':
+commonmark.c:409:18: warning: assignment discards qualifiers from pointer target type
+commonmark.c:411:18: warning: assignment discards qualifiers from pointer target type
+commonmark.c:478:7: warning: ISO C90 forbids mixed declarations and code
+compiling commonmarker.c
+In file included from c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/defines.h:168:0,
+                 from c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/ruby.h:36,
+                 from c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby.h:33,
+                 from commonmarker.h:9,
+                 from commonmarker.c:1:
+c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/win32.h:295:44: warning: 'struct timespec' declared inside parameter list
+c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/win32.h:295:44: warning: its scope is only this definition or declaration, which is probably not what you want
+c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/win32.h:296:43: warning: 'struct timespec' declared inside parameter list
+In file included from c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/ruby.h:1992:0,
+                 from c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby.h:33,
+                 from commonmarker.h:9,
+                 from commonmarker.c:1:
+c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/intern.h:923:29: warning: 'struct timespec' declared inside parameter list
+c:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/ruby/intern.h:926:41: warning: 'struct timespec' declared inside parameter list
+In file included from houdini.h:9:0,
+                 from commonmarker.c:3:
+config.h:8:0: warning: "HAVE_STDBOOL_H" redefined
+C:/Users/vhd/Desktop/meav.github.io-master/ruby/include/ruby-2.3.0/i386-mingw32/ruby/config.h:30:0: note: this is the location of the previous definition
+commonmarker.c: In function 'prepare_parser':
+commonmarker.c:123:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:133:5: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_markdown_to_html':
+commonmarker.c:172:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:176:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_render_html':
+commonmarker.c:550:5: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:561:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_render_commonmark':
+commonmarker.c:578:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:584:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:591:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_render_plaintext':
+commonmarker.c:606:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:612:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c:619:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_html_escape_href':
+commonmarker.c:1073:3: warning: ISO C90 forbids mixed declarations and code
+commonmarker.c: In function 'rb_html_escape_html':
+commonmarker.c:1093:3: warning: ISO C90 forbids mixed declarations and code
+compiling core-extensions.c
+compiling ext_scanners.c
+compiling footnotes.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling houdini_html_u.c
+compiling html.c
+html.c: In function 'S_put_footnote_backref':
+html.c:68:3: warning: ISO C90 forbids mixed declarations and code
+html.c: In function 'S_render_node':
+html.c:399:7: warning: ISO C90 forbids mixed declarations and code
+compiling inlines.c
+inlines.c: In function 'adjust_subj_node_newlines':
+inlines.c:269:3: warning: ISO C90 forbids mixed declarations and code
+inlines.c: In function 'scan_to_closing_backticks':
+inlines.c:306:5: warning: ISO C90 forbids mixed declarations and code
+inlines.c: In function 'handle_backticks':
+inlines.c:342:5: warning: ISO C90 forbids mixed declarations and code
+inlines.c: In function 'handle_hyphen':
+inlines.c:534:3: warning: ISO C90 forbids mixed declarations and code
+inlines.c: In function 'handle_backslash':
+inlines.c:758:3: warning: ISO C90 forbids mixed declarations and code
+inlines.c: In function 'handle_pointy_brace':
+inlines.c:861:5: warning: ISO C90 forbids mixed declarations and code
+inlines.c:871:7: warning: ISO C90 forbids mixed declarations and code
+compiling iterator.c
+iterator.c: In function 'cmark_iter_new':
+iterator.c:13:3: warning: ISO C90 forbids mixed declarations and code
+iterator.c: In function 'cmark_consolidate_text_nodes':
+iterator.c:99:3: warning: ISO C90 forbids mixed declarations and code
+iterator.c: In function 'cmark_node_own':
+iterator.c:132:3: warning: ISO C90 forbids mixed declarations and code
+compiling latex.c
+latex.c: In function 'get_link_type':
+latex.c:165:3: warning: ISO C90 forbids mixed declarations and code
+latex.c:177:3: warning: ISO C90 forbids mixed declarations and code
+compiling linked_list.c
+compiling man.c
+man.c: In function 'S_render_node':
+man.c:132:9: warning: ISO C90 forbids mixed declarations and code
+compiling map.c
+compiling node.c
+node.c: In function 'S_node_unlink':
+node.c:761:3: warning: ISO C90 forbids mixed declarations and code
+node.c: In function 'cmark_node_insert_before':
+node.c:791:3: warning: ISO C90 forbids mixed declarations and code
+node.c:802:3: warning: ISO C90 forbids mixed declarations and code
+node.c: In function 'cmark_node_insert_after':
+node.c:824:3: warning: ISO C90 forbids mixed declarations and code
+node.c:835:3: warning: ISO C90 forbids mixed declarations and code
+node.c: In function 'cmark_node_prepend_child':
+node.c:861:3: warning: ISO C90 forbids mixed declarations and code
+node.c: In function 'cmark_node_append_child':
+node.c:885:3: warning: ISO C90 forbids mixed declarations and code
+compiling plaintext.c
+compiling plugin.c
+compiling references.c
+compiling registry.c
+registry.c: In function 'cmark_register_plugin':
+registry.c:23:3: warning: ISO C90 forbids mixed declarations and code
+compiling render.c
+compiling scanners.c
+compiling strikethrough.c
+strikethrough.c: In function 'create_strikethrough_extension':
+strikethrough.c:157:3: warning: ISO C90 forbids mixed declarations and code
+compiling syntax_extension.c
+compiling table.c
+table.c: In function 'row_from_string':
+table.c:133:7: warning: ISO C90 forbids mixed declarations and code
+table.c: In function 'try_opening_table_header':
+table.c:223:3: warning: ISO C90 forbids mixed declarations and code
+table.c: In function 'matches':
+table.c:344:5: warning: ISO C90 forbids mixed declarations and code
+table.c: In function 'html_render':
+table.c:626:7: warning: ISO C90 forbids mixed declarations and code
+compiling tagfilter.c
+compiling utf8.c
+compiling xml.c
+linking shared-object commonmarker/commonmarker.so
+
+current directory: C:/Users/vhd/Desktop/meav.github.io-master/ruby/lib/ruby/gems/2.3.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20200609-1756-1a63lhg/commonmarker
